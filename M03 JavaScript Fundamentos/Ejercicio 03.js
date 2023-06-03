@@ -12,7 +12,7 @@ function sonIguales(x, y) {
    }
    }
 
- //  console.log(Soniguales(5,8))
+  console.log(Soniguales(5,8))
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -26,7 +26,7 @@ function tienenMismaLongitud(str1, str2) {
    }
    }
 
-  // console.log(tienenMismaLongitud("miguel","humberto"))
+ // console.log(tienenMismaLongitud("miguel","humberto"))
 
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
@@ -43,6 +43,11 @@ function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num > 50) {
+      return true
+   }else {
+      return false
+   }
 }
 
 function esPar(num) {
